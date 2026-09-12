@@ -37,3 +37,34 @@ console.log(typeof bigNumber);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//---------------MEMORY-----------------------------
+
+//-------------TWO TYPES-----------------------------
+
+// 1)stack memory. 2)heap memory.
+// stack memory :- usko kehte h jisme primitive use ho
+// heap memory :- usko kete h jisme non primitive use ho
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
